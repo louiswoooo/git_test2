@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m
+git status
+git log
+git log --pretty=online
+git reset --hard HEAD^ 把工作区的版本回退到仓库区master 分支的HEAD指针的版本
