@@ -5,3 +5,7 @@ git status
 git log
 git log --pretty=online
 git reset --hard HEAD^ 把工作区的版本回退到仓库区master 分支的HEAD指针的版本
+git config -l
+//创建远程分支 origin
+git remote add origin https://github.com/louiswoooo/git_test2.git
+//推送本地master 到远程 origin,-u 表示第一次推送
